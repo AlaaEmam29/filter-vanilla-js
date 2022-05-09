@@ -1,0 +1,54 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a,a:hover
+{
+    text-decoration: none;
+    color:#000;
+    text-transform:capitalize;
+    line-height: 2;
+}
+body
+{
+    background-color:#F8FAFC
+}
+.product-img
+{
+    height: 15rem;
+border-radius: 0.5rem;
+object-fit: cover;
+width:100%;
+}
+.form-control,.form-control:focus
+{
+    background-color:#E2E8F0
+}
+.not-found
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+@media screen and  (max-width :991.98px)
+{
+    .items
+{
+
+    padding-top:2rem;
+}
+.not-found
+{
+    top: 50%;
+}
+}
+@media screen and (min-width :992px) and (max-width :1199.98px)
+{
+main{
+width: 95% !important;
+}
+}
